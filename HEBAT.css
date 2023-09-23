@@ -1,0 +1,173 @@
+#myNavbar {
+    position: sticky;
+    top: 0;
+    height: 0%;
+    width: 100%;
+    background-color: #F8F0DE;
+    z-index: 1000; /* Sesuaikan nilai z-index sesuai kebutuhan Anda */
+  }
+
+
+
+  #caraousel{
+    top: 0;
+    
+  }
+
+  .carousel-item img{
+    height: 100%;
+   
+
+  }
+
+  .navbar-brand img{
+    height: 55px;
+    width: 80px;
+  }
+
+  .carousel-item{
+    color: black;
+
+  }
+
+
+  .kartunya::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+
+
+  .pengertian{
+    font-size:large;
+    text-align: justify;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .pengertian li{
+    margin-bottom: 10px;
+  }
+
+
+
+.col-md-3 a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.col-md-3 :hover{
+    border-color: rgb(0, 0, 0);
+}
+
+.card{
+  height: 360px;
+}
+
+.card img{
+    height: 200px;
+    width: 250px;
+}
+
+#jenistext{
+  margin-bottom: -40px;
+  font-size: 25px;
+  font-weight: bold;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#textcarousel p{
+  size: 100px;
+}
+.textcarousel{
+  size: 100px;
+}
+
+.welcome{
+  margin-bottom: 350px;
+  /* margin-right: 300px; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 90px;
+  height: 100px;
+  width: 100%;
+}
+
+.welcomekecil{
+  font-size: 25px;
+  font-weight: normal;
+   margin-top: 50px;
+}
+
+.image-overlay {
+    position: relative;
+    width: 300px; 
+    height: 200px; 
+}
+
+.image-overlay img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.image-overlay::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5); /* Gunakan RGBA untuk mengatur tingkat transparansi gelap (0.5 adalah tingkat transparansi) */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Opsional: Teks di atas gambar */
+.image-overlay p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Atur warna teks agar kontras dengan latar belakang gelap */
+}
+
+.definition{
+  margin-left: 40%;
+  text-align: justify;
+  margin-top: 10%;
+}
+
+.definition h1{
+  
+}
+
+.gambardes img{
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    margin-bottom: 300px;
+    border-radius: 50%;
+    margin-top: -200px;
+    margin-left: 100px;
+  }
+
+  .category{
+
+    
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: -2%;
+  }
+
+  .card-text{
+    /* text-align: justify; */
+  }
+
+
+  
